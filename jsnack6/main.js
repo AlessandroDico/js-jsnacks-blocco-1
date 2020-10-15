@@ -5,7 +5,7 @@
 var array = [0];
 var result = 0;
 
-for (var i = 0; i < array.length && result < 1000; i++) {
+for (var i = 0; i < array.length && result < 960; i++) {
     result = [i] * [i];
     array.push(result);
     console.log(result);
