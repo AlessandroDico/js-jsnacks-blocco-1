@@ -9,14 +9,14 @@ inseriti.
 
 // FACCIO LA SOMMA DI TUTTI I NUMERI INSERITI
 
-var numero_utente = [];
+var user_number = [];
 
 var sum = 0;
 
 for (var i = 0; i < 5; i++) {
-    numero_utente.push(parseFloat(prompt('inserisci un numero')));
-    console.log(numero_utente);
-    sum = sum + numero_utente[i];
+    user_number.push(parseFloat(prompt('inserisci un numero')));
+    console.log(user_number);
+    sum = sum + user_number[i];
     console.log(sum);
 }
 
