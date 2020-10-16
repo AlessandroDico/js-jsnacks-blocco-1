@@ -22,11 +22,20 @@ for (var i = 0; i < 5; i++) {
 
 document.writeln(sum);
 
+// UNA SOLUZIONE PIù COMPATTA ANCORA
+/*
 
+var sum = 0;
 
+for (var i = 0; i < 5; i++) {
+    var user_number = parseFloat(prompt('inserisci un numero'));
+    console.log(user_number);
+    sum = sum + user_number;
+}
 
+console.log(sum);
 
-
+*/
 
 
 
