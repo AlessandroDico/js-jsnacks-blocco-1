@@ -11,7 +11,7 @@ SE STESSIMO CONTANDO DI 1 IN 1 ALLORA SI SAREBBE FERMATO A 1000 GIUSTO.
 IN QUESTO CASO L'UNICA SOLUZINE CHE MI VIENE AL MOMENTO è IMPOSTARE RESULT < DI 960 IN QUANTO COSI' SI FERMA ALL'ULTIMO "BRAKE POINT" PRIMA DEL 1000
 */
 for (var i = 0; i < array.length && result < 960; i++) {
-    result = [i] * [i];
+    result = (i) * (i);
     array.push(result);
     console.log(result);
 }
