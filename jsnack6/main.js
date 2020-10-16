@@ -6,7 +6,7 @@
 
 var risultato;
 
-for (var i = 0; Math.pow(2, (2 + i)) < 1000; i++) {
-    risultato = Math.pow(2, (2 + i));
+for (var i = 0; Math.pow(2, (1 + i)) < 1000; i++) {
+    risultato = Math.pow(2, (1 + i));
     console.log(risultato);
 }
