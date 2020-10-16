@@ -14,6 +14,6 @@ var user_number = parseInt(prompt('scrivi fino a che numero desideri elevare al 
 
 for (var i = 0; i <= user_number; i++) {
     // console.log(user_number);
-    var add = (i) * (i) * (i);
+    var add = i * i * i;
     console.log(add);
 }
