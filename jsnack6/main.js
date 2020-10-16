@@ -2,7 +2,8 @@
 
 // IL RISULTATO DELLA POTENZA NON DEVE SUPERARE 1000
 
-var array = [0];
+var array = [];
+
 var result = 0;
 
 /*
@@ -10,8 +11,8 @@ ATTENZIONE!! SE IMPOSTO RESULT < 1000 SUPERERO' IL 1000 IN QUANTO SI ACCORGE SOL
 SE STESSIMO CONTANDO DI 1 IN 1 ALLORA SI SAREBBE FERMATO A 1000 GIUSTO.
 IN QUESTO CASO L'UNICA SOLUZINE CHE MI VIENE AL MOMENTO è IMPOSTARE RESULT < DI 960 IN QUANTO COSI' SI FERMA ALL'ULTIMO "BRAKE POINT" PRIMA DEL 1000
 */
-for (var i = 0; i < array.length && result < 960; i++) {
-    result = (i) * (i);
+for (var i = 0; i * i < 1000; i++) {
+    result = i * i;
     array.push(result);
     console.log(result);
 }
