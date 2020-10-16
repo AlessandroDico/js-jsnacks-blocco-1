@@ -3,9 +3,10 @@
 // MI SERVE UNA VARIABILE SOMMA
 var somma = 0;
 
+var numbers = 10;
 // CREO UN CICLO IF CHE MI SOMMA AD OGNI 'GIRO' IL NUMERO ATTUALE CON LA SOMMA PRECEDENTE
 
-for (var i = 0; i <= 10; i++) {
+for (var i = 1; i <= numbers; i++) {
     // console.log(i);
     somma = somma + i;
     // console.log(somma);
@@ -13,7 +14,5 @@ for (var i = 0; i <= 10; i++) {
 
 // LA SOMMA è
 console.log(somma);
-
 // LA MEDIA è LA SOMMA DIVISO I NUMERI DI CICLI
-
-console.log(somma / 10);
+console.log(somma / numbers);
